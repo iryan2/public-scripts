@@ -33,5 +33,5 @@ curl -u "$username" \
     https://api.github.com/user/keys
 sleep 1
 
-echo -n "git clone git@github.com:iryan2/.dotfiles.git ~/dotfiles" | pbcopy
+echo "git clone git@github.com:iryan2/.dotfiles.git ~/dotfiles" | pbcopy
 echo "Clone command for configuration repo has been copied to the clipboard. Run it to verify successful key registration"
