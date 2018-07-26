@@ -13,7 +13,7 @@ echo "Enter a name for this computer on GitHub:"
 read computerName
 if [[ "$computerName" = "The Beast" ]]; then
   echo "\n"
-  echo "That is a great name for this fucking beast of a machine.\n"
+  echo "That is a great name for this absolute animal of a machine.\n"
   sleep 1
 fi
 # ideally this would check that meaningful, alphanumeric values were entered.
